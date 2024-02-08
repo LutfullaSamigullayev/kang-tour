@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  padding-inline: 20px;
+  margin-inline: auto;
+}
+
+.page {
+  flex-grow: 1;
+}
+
+.header {
+  background-color: #fb6e10;
+  padding-block: 16px;
+}
+
+.footer {
+  background-color: #123ff4;
+  padding-block: 16px;
+}/*# sourceMappingURL=mian.css.map */
