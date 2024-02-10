@@ -1,4 +1,14 @@
 .footer {
-    background-color: $primary-100;
-    padding-block: 16px;
+    height: 48px;
+    background-color: #02A28F;
+    margin-top: 60px;
+    // padding-block: 16px;
+}
+.bottom__wrap {
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
 }

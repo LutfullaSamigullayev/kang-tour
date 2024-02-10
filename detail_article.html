@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Scss default folder structure</title>
+        <link rel="stylesheet" href="./style/mian.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- Header -->
+            <header class="header">
+                <div class="container">
+                    <div class="header__wrap">
+                        <a href="/" class="header__logo">Kang Tutor</a>
+                        <div class="menu ">
+                            <button class="menu__button-close">
+                                <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="25.0002" y="29" width="35" height="5" rx="2.5" transform="rotate(-135 25.0002 29)" fill="white"/>
+                                    <rect y="26" width="35" height="5" rx="2.5" transform="rotate(-45 0 26)" fill="white"/>
+                                </svg>                                    
+                            </button>
+                            <a href="#" class="menu__items">Beranda</a>
+                            <a href="#" class="menu__items">Tutorial</a>
+                            <a href="#" class="menu__items">Pemrograman</a>
+                            <a href="#" class="menu__items">Teknologi</a>
+                        </div>
+                        <button class="burger">
+                            <div class="burger__line"></div>
+                            <div class="burger__line"></div>
+                            <div class="burger__line"></div>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main -->
+            <main class="page">
+                <div class="container flex">
+                    <!-- Left Main Start -->
+                    <div class="left-main">
+                        <div class="content-name__small">
+                            <p>Home > html > Apa Itu HTML ?</p>
+                        </div>
+                        <div class="content__thema">
+                            <h1>Mengenal Apa Itu HTML ?</h1>
+                            <div class="thema__bottom">
+                                <p><b>By</b> Ridho Satriawan</p>
+                                <p>22 Agustus 2022</p>
+                            </div>
+                        </div>
+                        <div class="content__box-1">
+                            <h2>Apa itu HTML ?</h2>
+                            <br>
+                            <p>Buat kamu yang pernah membuat sebuah website pastinya sudah tidak asing lagi dengan yang namanya HTML. Sebenarnya apa sih HTML itu ? Kenapa menggunakan HTML untuk membuat website ?</p>
+                            <br>
+                            <h2>Pengertian</h2>
+                            <br>
+                            <p>HTML merupakan singkatan dari Hyper Text Markup Language, merupakan bahasa markup standard yang digunakan untuk menampilkan dokumen ke Web Browser seperti Google Chrome dan Edge. HTML biasanya digunakan bersama teknologi lainya, seperti Cascading Style Sheets (CSS) dan bahasa scripting seperti Javascript. 
+                            </p>
+                            <br>
+                            <p>Struktur di dalam HTML terdiri dari serangkaian elemen, elemen tersebut berfungsi untuk memberi informasi kepada Web Browser tentang cara menampilkan konten. Elemen dalam HTML memiliki banyak jenis dan memiliki fungsinya masing-masing, seperti elemen paragraf , input, judul dan lainya. Pada umumnya elemen terdiri dari tag pembuka, konten dan tag penutup, ada juga sebagian elemen yang tidak memiliki tag penutup dan konten.
+                            </p>
+                            <br>
+                            <p>Sedangkan tag itu sendiri ditulis dengan cara diapit tanda kurung sudut dan untuk tag penutup diberi garis miring sebelum nama tagnya, sebagai contoh <p> </p>. Sedangkan untuk elemen yang hanya menggunakan satu tag, cara penulisanya diberi garis miring setelah nama tag contohnya <img />.
+                            </p>
+                            <br>
+                            <h2>Sejarah Singkat
+                            </h2>
+                            <br>
+                            <p>HTML pertama kali dicetus pada tahun 1980 oleh Tim Berners-Lee, pada saat itu dia sedang bekerja di salah satu perusahaan yang bernama CERN (European Organization for Nuclear Research), dia mengusulkan untuk membuat sebuah sistem yang bernama ENQUIRE yang berfungsi untuk mengelola dokumen perusahaan.
+                            </p>
+                            <br>
+                            <p>Kemudian pada tahun 1990 Berners-Lee dan timnya yang berasal dari perusahaan yang sama mulai mencari pendanaan untuk projeknya akan tetapi tidak berjalan dengan lancar. HTML mulai dipublikasikan pada tahun 1991 dan memiliki 18 tag, hingga sekarang HTML mengalami perkembangan.</p>
+                        </div>
+                        <div class="content__box-2">
+                            <img src="./img/image_1.jpg">
+                        </div>
+                        <div class="content__box-3">
+                            <h2>Penutup</h2>
+                            <br>
+                            <p>HTML pertama kali dicetus pada tahun 1980 oleh Tim Berners-Lee, pada saat itu dia sedang bekerja di salah satu perusahaan yang bernama CERN (European Organization for Nuclear Research), dia mengusulkan untuk membuat sebuah sistem yang bernama ENQUIRE yang berfungsi untuk mengelola dokumen perusahaan.
+                            </p>
+                            <br>
+                            <p>Kemudian pada tahun 1990 Berners-Lee dan timnya yang berasal dari perusahaan yang sama mulai mencari pendanaan untuk projeknya akan tetapi tidak berjalan dengan lancar. HTML mulai dipublikasikan pada tahun 1991 dan memiliki 18 tag, hingga sekarang HTML mengalami perkembangan.</p>
+                        </div>
+                    </div>
+                    <!-- Left Main End -->
+
+                    <!-- Right Main Start -->
+                    <div class="right-main">
+                        <div class="populer">
+                            <div class="content-name">
+                                <h3>Paling Populer</h3>
+                            </div>
+                            <div class="populer__box">
+                                <div class="populer__box__img"></div>
+                                <div class="populer__box__name">
+                                    <h4 class="populer__box__content">Ini Adalah Judul Artikel</h4>
+                                    <time class="populer__box__time" datetime="2022-08-22">22 Agustus 2022</time>
+                                </div>
+                            </div>
+                            <div class="populer__box">
+                                <div class="populer__box__img"></div>
+                                <div class="populer__box__name">
+                                    <h4 class="populer__box__content">Ini Adalah Judul Artikel</h4>
+                                    <time class="populer__box__time" datetime="2022-08-22">22 Agustus 2022</time>
+                                </div>
+                            </div>
+                            <div class="populer__box">
+                                <div class="populer__box__img"></div>
+                                <div class="populer__box__name">
+                                    <h4 class="populer__box__content">Ini Adalah Judul Artikel</h4>
+                                    <time class="populer__box__time" datetime="2022-08-22">22 Agustus 2022</time>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <div class="content-name">
+                                <h3>Paling Populer</h3>
+                            </div>
+                            <div class="category__items">
+                                <div class="category__box">
+                                    <span>> Label 1</span>
+                                    <span>(1)</span>
+                                </div>
+                                <div class="category__box">
+                                    <span>> Label 2</span>
+                                    <span>(2)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right Main End -->
+                </div>
+            </main>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="bottom__wrap">
+                        <span>Copyright@KangTutor</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- js -->
+        <script src="./app.js"></script>
+    </body>
+</html>
