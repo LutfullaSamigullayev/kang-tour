@@ -4,7 +4,7 @@ const menu = document.querySelector('.menu');
 
 function toggleBurgerMenu() {
     menu.classList.toggle('open');
-    console.log('dsfsdf')
+    console.log('toggle')
 }
 
 burger.addEventListener('click', toggleBurgerMenu);
